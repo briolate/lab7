@@ -28,6 +28,6 @@ var groceryItems = [
 var total = 0;
 groceryItems.forEach(function(i){
   total += i.price;
-  console.log(i.name);
+  console.log(i.name + " = $" + i.price);
 });
-console.log(total);
+console.log("Total: $" + total.toFixed(2));
