@@ -1,3 +1,4 @@
+//consoleShoppingList
 var groceryItems = [
   {
     name: 'Mango',
@@ -30,4 +31,12 @@ groceryItems.forEach(function(i){
   total += i.price;
   console.log(i.name + " = $" + i.price);
 });
-console.log("Total: $" + total.toFixed(2));
+console.log("Total = $" + total.toFixed(2));
+
+//Figure it Out
+var lowEnd = -10;
+var highEnd = 30;
+var list = [];
+for (var i = lowEnd; i <= highEnd; i++) {
+    console.log(i);
+}
